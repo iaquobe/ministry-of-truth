@@ -6,7 +6,7 @@
 
 This project is the solution. It formats images and puts nice little face masks on each face.
 
-In simple words
+In simple words\
 **before:**
 ![before](holly_grail_unsafe.jpg)
 
