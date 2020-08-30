@@ -8,19 +8,19 @@ This project is the solution. It formats videos and puts nice little face masks 
 
 # installation 
 
-before changing the past you'll first need to install some packages with the following command:\
+before changing the past you'll first need to install some packages with the following command:
 ```
 pip install moviepy pillow face-recognition
 ```
 
 # usage
 
-To mask run:\
+To mask run:
 ```
 ./mask_on.py file
 ```
 
-To unmask run:\
+To unmask run:
 ```
 ./fuck_it_mask_off.sh file
 ```
