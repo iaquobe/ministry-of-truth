@@ -1,7 +1,8 @@
 # ministry-of-truth
 
-> "how do you expect to influence the future when you can't even change the past?"\
-> - Me
+> "how do you expect to influence the future when you can't even change the past?"
+
+-- Me
 
 This project is the solution. It formats videos and puts nice little face masks on each face.
 
