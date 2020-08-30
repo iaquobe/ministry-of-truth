@@ -6,6 +6,13 @@
 
 This project is the solution. It formats videos and puts nice little face masks on each face.
 
+In simple words\
+### before:
+![before](holly_grail_unsafe.jpg)
+
+### after:
+![after](holly_grail_safe.png)
+
 ## installation 
 
 before changing the past you'll first need to install some packages with the following command:
