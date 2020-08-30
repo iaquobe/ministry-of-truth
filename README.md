@@ -7,10 +7,10 @@
 This project is the solution. It formats images and puts nice little face masks on each face.
 
 In simple words\
-**before:**
+**before:**\
 ![before](holly_grail_unsafe.jpg)
 
-**after:**
+**after:**\
 ![after](holly_grail_safe.png)
 
 ## installation 
