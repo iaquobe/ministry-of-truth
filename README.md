@@ -6,14 +6,14 @@
 
 This project is the solution. It formats videos and puts nice little face masks on each face.
 
-# installation 
+## installation 
 
 before changing the past you'll first need to install some packages with the following command:
 ```
 pip install moviepy pillow face-recognition
 ```
 
-# usage
+## usage
 
 To mask run:
 ```
@@ -25,6 +25,6 @@ To unmask run:
 ./fuck_it_mask_off.sh file
 ```
 
-# TODO
+## TODO
 
 - space out the videos so everyone is 6ft apart.
