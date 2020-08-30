@@ -25,11 +25,19 @@ def transform_image(path):
 
 
 def transform_video(path):
-    def mask_faces(image):
-        faces = face_recognition.face_locations(image, number_of_times_to_upsample=2)
+    def mask_faces(get_frame, t):
+        image = get_frame(t)
+
+
+        x = int(t*4)
+        if x not in mask_locations:
+            faces = face_recognition.face_locations(image, number_of_times_to_upsample=2)
+        elif len(mask_locations[x]) == 0:
+            return image
+        else:
+            faces = mask_locations[x]
 
         out_img = Image.fromarray(image)
-        print("i am running!!!")
         for face in faces:
             print("face recognized")
             t,r,b,l = face
@@ -42,8 +50,9 @@ def transform_video(path):
         return np.array(out_img)
         
 
+    mask_locations = dict()
     clip = VideoFileClip(path)
-    clip = clip.fl_image(mask_faces)
+    clip = clip.fl(mask_faces)
     clip.write_videofile("out.mp4")
 
 
