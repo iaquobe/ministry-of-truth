@@ -4,7 +4,7 @@
 
 -- Me
 
-This project is the solution. It formats videos and puts nice little face masks on each face.
+This project is the solution. It formats images and puts nice little face masks on each face.
 
 In simple words\
 ### before:
@@ -34,4 +34,5 @@ To unmask run:
 
 ## TODO
 
-- space out the videos so everyone is 6ft apart.
+- space out the images so everyone is 6ft apart.
+- support for videos
