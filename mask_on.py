@@ -38,8 +38,9 @@ def transform_video(path):
             faces = mask_locations[x]
 
         out_img = Image.fromarray(image)
+        if verbose and len(faces) > 0:
+            print("%s faces recognized" % len(faces))
         for face in faces:
-            print("face recognized")
             t,r,b,l = face
 
             h = int(2/3 * (b - t))
@@ -62,6 +63,7 @@ if len(sys.argv) < 2:
     print("you forgot to specify a file, can't do much without one")
 
 
+verbose = False
 mask = Image.open("mask.png")
 
 path = sys.argv[1]
