@@ -20,13 +20,14 @@ pip install moviepy pillow face-recognition
 ```
 
 ## usage
+You can choose to mask/unmask people in either video(`mp4`) or image(`png`,`jpg`)\
 
-To mask run:
+To mask simply run:
 ```
 ./mask_on.py file
 ```
 
-To unmask run:
+To unmask also simply run:
 ```
 ./fuck_it_mask_off.sh file
 ```
@@ -34,4 +35,3 @@ To unmask run:
 ## TODO
 
 - space out the images so everyone is 6ft apart.
-- support for videos
